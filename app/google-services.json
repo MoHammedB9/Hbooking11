@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263897106200",
+    "project_id": "hbooking-a8016",
+    "storage_bucket": "hbooking-a8016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263897106200:android:7b6fb1c7d60eefaef5806d",
+        "android_client_info": {
+          "package_name": "com.example.hbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263897106200-831cj3n252guu4vu70h2ejkf6nh37ckl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hbooking",
+            "certificate_hash": "9f85a5c358d0ae2d70db8633bba061d4406b4c81"
+          }
+        },
+        {
+          "client_id": "263897106200-fsdphn85d5n980kigiqo101fu5h7713b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyAO05SRteYAS4vKFv8IofQNCvWLSISG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263897106200-fsdphn85d5n980kigiqo101fu5h7713b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

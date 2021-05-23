@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Hbooking</string>
+    <string-array name="tabVille">
+        <item>Agadir</item>
+        <item>Beni-Mellal</item>
+        <item>Casablanca</item>
+        <item>El-Jadida</item>
+        <item>Fés</item>
+        <item>Kenitra</item>
+        <item>Khemisset</item>
+        <item>Khouribga</item>
+        <item>Meknes</item>
+        <item>Marrakech</item>
+        <item>Mohammedia</item>
+        <item>Nador</item>
+        <item>Oujda</item>
+        <item>Rabat</item>
+        <item>Salé</item>
+        <item>Safi</item>
+        <item>Taza</item>
+        <item>Témara</item>
+        <item>Tétouan</item>
+        <item>Tanger</item>
+
+
+    </string-array>
+    <string name="title_activity_principale">Principale</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User_Name</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Recherche</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_favoris">Favoris</string>
+    <string name="menu_historique">Historique</string>
+    <string name="menu_list">Mes listes</string>
+    <string name="menu_logout">Se deconnecter</string>
+    <string name="menu_HomeList">Acceuil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

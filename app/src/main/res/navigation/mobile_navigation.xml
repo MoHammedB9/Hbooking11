@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Acceuil">
+
+
+
+    <fragment
+        android:id="@+id/nav_Acceuil"
+        android:name="com.example.hbooking.fragment.Fragment_Home"
+        android:label="@string/menu_HomeList"
+        tools:layout="@layout/fragment__home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.hbooking.fragment.Fragment_Profile"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment__profile" />
+
+    <fragment
+        android:id="@+id/nav_favoris"
+        android:name="com.example.hbooking.fragment.Fragment_Favoris"
+        android:label="@string/menu_favoris"
+        tools:layout="@layout/fragment__favoris" />
+
+    <fragment
+        android:id="@+id/nav_historique"
+        android:name="com.example.hbooking.fragment.Fragment_historique"
+        android:label="@string/menu_historique"
+        tools:layout="@layout/fragment_historique" />
+
+    <fragment
+        android:id="@+id/nav_Mesannances"
+        android:name="com.example.hbooking.fragment.Fragment_MesAnnances"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment__mes_annances" />
+
+
+</navigation>

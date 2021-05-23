@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Connecter">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/loho" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:id="@+id/seConnecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginBottom="30dp"
+        android:text="Se Connecter" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/seConnecter"
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="14dp"
+        android:hint="Email"
+        android:outlineSpotShadowColor="@color/black"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Email"
+        android:id="@+id/pwd_anc"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="14dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pwd_anc"
+        android:id="@+id/Confermer"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Connecter" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Confermer"
+        android:id="@+id/CreeCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Cree Compte !" />
+</RelativeLayout>
